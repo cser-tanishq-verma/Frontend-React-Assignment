@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "name": "JAY",
+      "friend": "Veeru",
+      "id": "7bfFoRAO1vU",
+      "city": "Ramgudh"
+    },
+    {
+      "name": "JAY",
+      "friend": "Veeru",
+      "id": "rZ9PPY20m64"
+    },
+    {
+      "name": "JAY",
+      "friend": "Veeru",
+      "id": "MT75FHp4c5g"
+    },
+    {
+      "name": "JAY",
+      "friend": "Veeru",
+      "id": "MUorfBXCRR4"
+    },
+    {
+      "name": "JAY",
+      "friend": "Veeru",
+      "id": "UrpzadQ265M"
+    }
+  ],
+  "users": [],
+  "$schema": "./node_modules/json-server/schema.json"
+}
