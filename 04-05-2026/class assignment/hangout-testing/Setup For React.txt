@@ -1,0 +1,21 @@
+For the React Testing You will need the react Testing Library (Octopus), jest
+
+npm i -D jest jest-environment-jsdom @testing-library/react @testing-library/jest-dom @testing-library/user-event 
+            babel-jest @babel/preset-env @babel/preset-react
+
+Create the jest.config.cjs
+module.exports={testEnvironment:"jsdom",
+    moduleFileExtenstions:["js","jsx"],
+    transform:{
+        "^.+\\.(js|jsx)$":"babel-jest"
+    }
+    ,
+    setUpFilesAfterEnv:["<rootDir>/jest.setUp.js"]
+
+ }
+
+create babe.config.cjs
+model.exports = {presets:["@babel/preset-env", "@babel/preset-react"]}
+
+jest.setup.js
+import "@testing-library/jest-dom"

@@ -1,0 +1,31 @@
+For the React Resting we will need the Multiple of Libaries
+npm install 
+-D jest 
+jest-environment-jsdom
+@testing-library/react 
+@testing-library/jest-dom 
+@testing-library/user-event 
+babel-jest 
+@babel/preset-env @
+babel/preset-react
+
+
+Then we need to create the jest.config.js
+module.exports = {
+  testEnvironment: "jsdom",
+  transform: {
+    "^.+\\.(js|jsx)$": "babel-jest"
+  },
+  moduleFileExtensions: ["js", "jsx"],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"]
+};
+
+Then we have to create the babel.config.js 
+
+module.exports = {
+  presets: ["@babel/preset-env", "@babel/preset-react"]
+};
+
+last but not least jest.setup.js
+
+import "@testing-library/jest-dom";
