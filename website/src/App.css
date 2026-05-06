@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e29ab0; /* pink background */
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+/* Navbar outer strip */
+.navbar {
+  background: #d8cc9a; /* light yellow */
+  border: 4px solid black;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+/* Navbar inner content */
+.navbar-box {
+  display: flex;
+  justify-content: flex-start; /* left aligned like your image */
+  gap: 40px;
+  padding-left: 40px;
+}
+
+/* Links */
+.navbar-box a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+/* Hover (keep subtle for this style) */
+.navbar-box a:hover {
+  text-decoration: underline;
+}
+
+/* Content area */
+.container {
+  min-height: 400px;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #7fb3c2; /* blue footer */
+  text-align: center;
+  padding: 10px;
+  border-top: 4px solid black;
+}
